@@ -1,0 +1,53 @@
+.root {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.listOfTasks {
+  position: relative;
+  width: 30%;
+  height: 100%;
+  overflow: auto;
+  background: #dddfff;
+}
+
+.top {
+  position: absolute;
+  top: 0;
+  background: white;
+  width: 100%;
+  display: flex;
+  z-index: 1;
+}
+
+.listContainer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.taskContainer {
+  width: 70%;
+  background: #fffddd;
+}
+
+.createLink {
+  padding: 10px;
+}
+
+.createLink:active,
+.createLink:link,
+.createLink:visited {
+  color: white;
+}
+
+.formContainer {
+  padding-bottom: 30px;
+}
+
+.createButton {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}

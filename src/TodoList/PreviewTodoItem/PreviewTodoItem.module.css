@@ -1,0 +1,32 @@
+.root {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 10px;
+}
+
+.controlsContainer {
+  width: 100%;
+  padding: 10px;
+  text-align: right;
+}
+
+.infoContainer {
+  padding-left: 30px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.select {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
